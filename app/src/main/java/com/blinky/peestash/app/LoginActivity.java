@@ -10,7 +10,6 @@ import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
-import com.blinky.peestash.app.com.blinky.peestash.app.Artist.HomeArtistActivity;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -140,8 +139,8 @@ public class LoginActivity extends Activity {
                     }
                     else {
                         String msg="Vous êtes connecté\n"+result;
-                        Intent intent = new Intent(LoginActivity.this,HomeArtistActivity.class);
-                        startActivity(intent);
+                        /*Intent intent = new Intent(LoginActivity.this,HomeArtistActivity.class);
+                        startActivity(intent);*/
                         Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_LONG).show();
 
                     }
@@ -160,7 +159,7 @@ public class LoginActivity extends Activity {
 
 
 
-                   Toast.makeText(getApplicationContext(), donnees, Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), donnees, Toast.LENGTH_LONG).show();
                 }
 
                 catch(JSONException e)
