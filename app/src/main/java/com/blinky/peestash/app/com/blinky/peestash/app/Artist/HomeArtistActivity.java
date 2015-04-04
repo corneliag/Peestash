@@ -14,7 +14,7 @@ public class HomeArtistActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_artist);
         /*coucou
-        cc
+        cccc
          */
     }
 
