@@ -139,7 +139,7 @@ public class LoginActivity extends Activity {
                     }
                     else {
                         String msg="Vous êtes connecté\n"+result;
-                        Intent intent = new Intent(LoginActivity.this,HomeArtistActivity.class);
+                       Intent intent = new Intent(LoginActivity.this,HomeArtistActivity.class);
                         startActivity(intent);
                         Toast.makeText(getApplicationContext(), msg, Toast.LENGTH_LONG).show();
 
